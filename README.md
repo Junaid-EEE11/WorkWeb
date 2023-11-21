@@ -1,20 +1,24 @@
 # WorkWeb
-Overview
-This project aims to create an API that handles text, voice, and video inputs, incorporating machine learning techniques for natural language processing (NLP) and speech-related tasks. It facilitates data preprocessing and model handling for text, audio, and video inputs.
+##Overview
+   This project aims to create an API that handles text, voice, and video inputs, incorporating machine learning techniques for natural language processing (NLP) and speech-related tasks. It facilitates data preprocessing and model handling for text, audio, and video inputs.
 
 ## Features
-Text Processing: Cleansing, tokenization, normalization, stopwords removal, and vectorization (TF-IDF, word embeddings).
-Voice Processing: Audio preprocessing (format conversion, noise reduction) and transcription (speech-to-text).
-Video Processing: Frame extraction, image preprocessing, and feature extraction using pre-trained CNNs.
+   Text Processing: Cleansing, tokenization, normalization, stopwords removal, and vectorization (TF-IDF, word embeddings).
+   Voice Processing: Audio preprocessing (format conversion, noise reduction) and transcription (speech-to-text).
+   Video Processing: Frame extraction, image preprocessing, and feature extraction using pre-trained CNNs.
+
 ## Requirements
-Python 3.x
-Libraries: Flask, NLTK, Librosa, OpenCV, TensorFlow/Keras (specifically mentioned in the code)
+   1. Python 3.x
+   2. Libraries: Flask, NLTK, Librosa, OpenCV, TensorFlow/Keras (specifically mentioned in the code)
+
 ## Installation
 ### Clone the repository:
-git clone https://github.com/your_username/your_project.git
-cd your_project
+   git clone https://github.com/your_username/your_project.git
+   cd your_project
+
 ### Install dependencies:
-pip install -r requirements.txt
+   pip install -r requirements.txt
+
 ## Usage
 1. Run the Flask server:
    python app.py
@@ -23,13 +27,15 @@ pip install -r requirements.txt
   /character: Handle character mode input.
   /voice: Handle voice input.
   /video: Handle video input.
+
 # Future Improvements
-Implement more advanced NLP techniques (e.g., BERT, GPT) for text processing.
-Enhance voice processing with better noise reduction and additional ASR models.
-Extend video processing capabilities for object detection and action recognition.
-Implement authentication and security measures for the API endpoints.
+   Implement more advanced NLP techniques (e.g., BERT, GPT) for text processing.
+   Enhance voice processing with better noise reduction and additional ASR models.
+   Extend video processing capabilities for object detection and action recognition.
+   Implement authentication and security measures for the API endpoints.
+
 # Contributing
-Contributions are welcome! Please follow the guidelines outlined in CONTRIBUTING.md.
+   Contributions are welcome! Please follow the guidelines outlined in CONTRIBUTING.md.
 
 # License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+   This project is licensed under the MIT License - see the LICENSE.md file for details.
